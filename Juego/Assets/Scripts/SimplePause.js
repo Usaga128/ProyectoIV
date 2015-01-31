@@ -1,8 +1,10 @@
 ﻿#pragma strict
 
+
 private var pauseGame : boolean = false;
 private var showGUI : boolean = false;
 private var myGameObject : GameObject;
+
 
 function Update()
 {
@@ -31,11 +33,16 @@ function Update()
     
     if(showGUI == true)
     {
-    	  GameObject.Find("PausedGUI").GetComponent(Canvas).enabled = true;  
+    	//InstantGui[] guis = GameObject.Find("PausedGUI").getComponents<InstantGui>();
+    	GameObject.Find("PausedGUI").SetActive(true);
+    	//gameObject.GetComponent("PausedGUI").active = true;
+    	//  GameObject.Find("PausedGUI").GetComponent(Canvas).enabled = true;  
     }
     
     else
     {
-    	GameObject.Find("PausedGUI").GetComponent(Canvas).enabled = false;  
+    	GameObject.Find("PausedGUI").SetActive(false);
+    	//GetComponent("PausedGUI").gameObject.SetActive(false);
+    	//GameObject.Find("PausedGUI").GetComponent(Canvas).enabled = false;  
     }
 }
