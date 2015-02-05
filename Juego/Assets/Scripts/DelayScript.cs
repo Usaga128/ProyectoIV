@@ -3,8 +3,9 @@ using System.Collections;
 
 public class DelayScript : MonoBehaviour {
 	public float delayTime = 5;
+	public int nextlevel = 1;
 	IEnumerator Start(){
 		yield return new WaitForSeconds (delayTime);
-		Application.LoadLevel (Application.loadedLevel + 1);
+		AutoFade.LoadLevel (nextlevel ,1,1,Color.black);
 	}
 }
