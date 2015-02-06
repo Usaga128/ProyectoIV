@@ -71,6 +71,7 @@
      <Compile Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\Triangles.js" />
      <Compile Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\Vignetting.js" />
      <Compile Include="Assets\Scripts\PlayerAnim.js" />
+     <Compile Include="Assets\Scripts\RaycastShooting.js" />
      <Compile Include="Assets\Scripts\SimplePause.js" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
