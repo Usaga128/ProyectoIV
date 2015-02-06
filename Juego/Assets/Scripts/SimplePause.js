@@ -3,7 +3,7 @@
 
 private var pauseGame : boolean = false;
 private var showGUI : boolean = false;
-private var myGameObject : GameObject;
+public var myGameObject : GameObject;
 
 
 function Update()
@@ -31,18 +31,23 @@ function Update()
     	showGUI = false;
     }
     
+    
     if(showGUI == true)
     {
     	//InstantGui[] guis = GameObject.Find("PausedGUI").getComponents<InstantGui>();
-    	GameObject.Find("PausedGUI").SetActive(true);
+    	
     	//gameObject.GetComponent("PausedGUI").active = true;
     	//  GameObject.Find("PausedGUI").GetComponent(Canvas).enabled = true;  
+    	
+    	myGameObject.SetActive(true);
     }
     
     else
     {
-    	GameObject.Find("PausedGUI").SetActive(false);
+
     	//GetComponent("PausedGUI").gameObject.SetActive(false);
     	//GameObject.Find("PausedGUI").GetComponent(Canvas).enabled = false;  
+    	
+    	myGameObject.SetActive(false);
     }
 }
