@@ -46,6 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Editor\CheckValidShaders.cs" />
+     <Compile Include="Assets\Editor\CopyMoodBox.cs" />
+     <Compile Include="Assets\Editor\CopyTransform.cs" />
+     <Compile Include="Assets\Editor\EditorObjExporter.cs" />
+     <Compile Include="Assets\Editor\ReflectionThreshholdTweaker.cs" />
+     <Compile Include="Assets\Editor\RevealMeshColliders.cs" />
+     <Compile Include="Assets\Editor\TransformGroup.cs" />
      <Compile Include="Assets\InstantGui\Scripts\Editor\Elements\InstantGuiButtonEditor.cs" />
      <Compile Include="Assets\InstantGui\Scripts\Editor\Elements\InstantGuiInputTextEditor.cs" />
      <Compile Include="Assets\InstantGui\Scripts\Editor\Elements\InstantGuiListEditor.cs" />
@@ -59,6 +66,7 @@
      <Compile Include="Assets\InstantGui\Scripts\Editor\InstantGuiElementEditor.cs" />
      <Compile Include="Assets\InstantGui\Scripts\Editor\InstantGuiInspector.cs" />
      <Compile Include="Assets\InstantGui\Scripts\Editor\InstantGuiStyleSetEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\CleanProject.cs" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Vehicles\Cars\license.txt" />
@@ -71,12 +79,15 @@
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Resources\HeightDepthOfField.shader" />
+     <None Include="Assets\Resources\BlurPassesForDof.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\Fallback.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
@@ -84,11 +95,15 @@
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Resources\ColoredNoise.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\PlanarRealtimeReflection.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\ReflectiveBackgroundPlanar.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
      <None Include="Assets\license.txt" />
+     <None Include="Assets\Resources\MobileBloom.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
@@ -114,6 +129,7 @@
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\NeverFall Robots\Shaders\DyeNormGlow.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
      <None Include="Assets\3DObjects\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
