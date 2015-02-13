@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NeverFall Robots\Scripts\RobotControll.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Weapons\AutoFire.js">
     <Files>
-      <File FileName="Assets\NeverFall Robots\Scripts\CameraControll.cs" Line="1" Column="1" />
-      <File FileName="Assets\NeverFall Robots\Scripts\RobotControll.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Weapons\AutoFire.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\SimplePause.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
