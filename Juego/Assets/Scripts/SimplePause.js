@@ -17,8 +17,12 @@ function Update()
     		Time.timeScale = 0;
     		pauseGame = true;
     		GameObject.Find("Main Camera").GetComponent(MouseLook).enabled = false;
-    		GameObject.Find("First Person Controller").GetComponent(MouseLook).enabled = false;
+    		//GameObject.Find("First Person Controller").GetComponent(MouseLook).enabled = false;
+    		GameObject.Find("3rd Person Controller").GetComponent(MouseLook).enabled = false;
+    		
     		showGUI = true;
+    		
+    		
     	}
     }
     
@@ -27,7 +31,9 @@ function Update()
     	Time.timeScale = 1;
     	pauseGame = false;
     	GameObject.Find("Main Camera").GetComponent(MouseLook).enabled = true;
-    	GameObject.Find("First Person Controller").GetComponent(MouseLook).enabled = true;
+    	//dGameObject.Find("First Person Controller").GetComponent(MouseLook).enabled = true;
+    	GameObject.Find("3rd Person Controller").GetComponent(MouseLook).enabled = false;
+    		
     	showGUI = false;
     }
     
